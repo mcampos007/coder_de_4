@@ -1,0 +1,110 @@
+[
+	{
+		"title": "Nafta Super",
+		"description": "Servicios ",
+		"code": "001-001",
+		"price": "500.00",
+		"status": true,
+		"stock": 15000,
+		"category": "Combustibles",
+		"thumbnail": [
+			"img001",
+			"img002"
+		],
+		"id": 1
+	},
+	{
+		"title": "Nafta Quantium",
+		"description": "Servicios ",
+		"code": "001-002",
+		"price": "600.00",
+		"status": true,
+		"stock": 20000,
+		"category": "Combustibles",
+		"thumbnail": [
+			"img001",
+			"img002"
+		],
+		"id": 2
+	},
+	{
+		"title": "Articulo Actualizado",
+		"description": "Servicios actualizado",
+		"code": "003-003",
+		"price": "30010",
+		"status": true,
+		"stock": 15,
+		"category": "Servicios actualizado",
+		"thumbnail": [
+			"img001",
+			"img002"
+		],
+		"id": 3
+	},
+	{
+		"title": "Diesel X10 Granel",
+		"description": "Combustibles ",
+		"code": "001-006",
+		"price": "510.00",
+		"status": true,
+		"stock": 10000,
+		"category": "Combustibles",
+		"thumbnail": [
+			"img001",
+			"img002"
+		],
+		"id": 6
+	},
+	{
+		"title": "Aceite Castrol x 5 Lts",
+		"description": "Lubricantes ",
+		"code": "001-007",
+		"price": "9800",
+		"status": true,
+		"stock": 5,
+		"category": "Lubricantes",
+		"thumbnail": [
+			"img001",
+			"img002"
+		],
+		"id": 7
+	},
+	{
+		"title": "Aceite Castrol x 100 Lts",
+		"description": "Lubricante ",
+		"code": "001-009",
+		"price": "2.00",
+		"status": true,
+		"stock": 5,
+		"category": "Lubricante",
+		"thumbnail": [
+			"img001",
+			"img002"
+		],
+		"id": 9
+	},
+	{
+		"title": "Aceite Castrol x1 Lts",
+		"description": "Lubricante ",
+		"code": "001-010",
+		"price": "200",
+		"status": true,
+		"stock": 5,
+		"category": "Lubricante",
+		"thumbnail": [
+			"img001",
+			"img002"
+		],
+		"id": 10
+	},
+	{
+		"title": "Infinia Diesel",
+		"description": "Infinica Diesel 98 Octanos",
+		"code": "111111",
+		"price": "650",
+		"status": "true",
+		"stock": "55555",
+		"category": "Combustibles",
+		"id": 11
+	}
+]

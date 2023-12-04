@@ -1,0 +1,60 @@
+<div class="main main-raised">
+    <h2 class="title">{{ title }}</h2>
+    <div class="container" > 
+        <div class="section text-center">
+            <h2 class="title">{{title}}</h2>
+            <div class="card-body">
+                <div class="card-body  ">
+                    <a href="/" class="btn btn-info">volver al index</a>
+                </div>
+                <div >
+                    {{!-- <form action="/api/products" method="post"> --}}
+                    <form >
+                    <div class="row col-md-8">
+                        <div class="col">
+                            <label for="title">Nombre:</label>
+                            <input type="text" name="title" id="title" placeholder="" class="form-control">  
+                        </div>
+                        <div class="col">
+                            <label for="description">Descripción: </label>
+                            <input type="description" name="description" id="description" placeholder="" class="form-control">
+                        </div>
+                        <div class="col">
+                            <label for="code">Código:</label>    
+                            <input type="code" name="code" id="code" placeholder="" class="form-control" >    
+                        </div>
+                        <div class="col">
+                            <label for="price">Precio:</label>
+                            <input type="text" name="price" id="price" placeholder="" class="form-control">
+                        </div>
+                        
+                    </div>
+                    <div class="row col-md-4">
+                        <div class="col">
+                            <label for="status">Estado</label>
+                            <input type="text" name="status" id="status" value="true" readonly class="form-control">    
+                        </div>
+                        <div class="col">
+                            <label for="stock">Stock:</label>
+                            <input type="text" name="stock" id="stock" class="form-control">
+                        </div>
+                        <div class="col">
+                            <label for="category">Categoría</label>
+                            <input type="text" name="category" id="category" class="form-control">
+                        </div>
+                    </div>
+
+                        
+                        <input type="submit" value="Registrar Producto" class="btn btn-default" >
+
+                    </form>
+                </div>
+
+                <div id="tblproducts"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/main.js"></script>
+</div>

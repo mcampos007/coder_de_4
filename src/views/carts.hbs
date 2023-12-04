@@ -1,0 +1,28 @@
+
+<div class="main main-raised">
+    <h2 class="title">{{ title }}</h2>
+    <div class="container">
+        <div class="section text-center">
+            {{!-- <h2 class="title">{{ title }}</h2> --}}
+            <div class="card-body">
+                <table>
+                    <tr>
+                        <td>Id</td>
+                        <td>Acction</td>
+                    </tr>
+                {{#each carts}}
+                    <tr>
+                        <td>{{this.id}} </td>
+                            
+                        <td>
+                            <a href="/api/carts/{{this.id}}" >Ver Productos</a>
+                        </td>
+                    </tr>
+                {{/each}}
+                </table>
+                <a href="/" class="btn btn-default">Volver</a>
+            </div>
+        </div>
+    </div>
+</div>
+
